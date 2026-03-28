@@ -1,6 +1,6 @@
-# Next.js Starter Kit
+# bcm-store
 
-A minimal, opinionated Next.js starter kit for personal and side projects.
+A simple form app built entirely by Claude, used to explore what Claude Code can do end-to-end.
 
 ## Stack
 
@@ -40,34 +40,6 @@ cp .env.example .env.local
 ```
 
 `.env.local` is gitignored. Never commit real secrets.
-
-## Deploying to Vercel
-
-This project is configured for one-click deployment via Vercel's GitHub integration.
-
-### First-time setup
-
-1. Push your repo to GitHub
-2. Go to [vercel.com](https://vercel.com) → **Add New Project** → import your repo
-3. Vercel auto-detects Next.js — leave all build settings as default
-4. Confirm **Production Branch** is set to `main`
-5. Click **Deploy**
-
-### Environment variables
-
-Add your env vars in the Vercel dashboard:
-
-**Project → Settings → Environment Variables**
-
-Add each variable from `.env.example` with its real value. You can scope variables per environment (Production, Preview, Development).
-
-### Deployment behaviour
-
-| Trigger                     | Result                           |
-| --------------------------- | -------------------------------- |
-| Push to `main`              | Production deploy                |
-| Push to any other branch    | Preview deploy at a unique URL   |
-| Pull request opened/updated | Preview URL posted as PR comment |
 
 ## Commit Convention
 
